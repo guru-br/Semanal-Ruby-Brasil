@@ -1,1 +1,11 @@
-baseurl: ""
+image: ruby:2.5.1
+
+pages:
+  script:
+  - gem install jekyll
+  - jekyll build -d public/
+  artifacts:
+    paths:
+    - public
+  only:
+  - master
