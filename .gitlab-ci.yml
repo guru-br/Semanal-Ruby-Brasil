@@ -1,4 +1,4 @@
-image: ruby:2.5.2
+image: ruby:2.5.1
 
 # add bundle cache to 'vendor' for speeding up builds
 cache:
