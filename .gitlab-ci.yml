@@ -17,4 +17,4 @@ pages:
     paths:
       - public
   only:
-    - master # this job will affect only the 'master' branch
+    - main # this job will affect only the 'main' branch
